@@ -1,0 +1,28 @@
+body
+{
+    margin: 0px;
+    background-color: #fafffa;
+}
+
+#main_div
+{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+#img_div
+{
+    display: none;
+}
+
+#error_div
+{
+    display: none;
+    color: red;
+}
+
+#loading_img
+{
+    width: 256px;
+}

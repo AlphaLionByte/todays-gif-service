@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your today's gif :)</title>
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+</head>
+<body>
+    <div id="main_div">
+        <h1>Today's gift service</h1>
+
+        <div id="gif_img_loader">
+            <img id="loading_img" src="/content/images/loading_gif.gif" alt="Loading...">
+            <p>Loading...</p>
+        </div>
+
+        <div id="img_div">
+            <img id="gif_img" src="" />
+
+            <p>
+                Select currency: <select id="curr_select" size="1"></select>
+                towards <select id="base_curr_select" size="1" autocomplete="off"></select>
+            </p>
+            <h2 id="curr_descr"></h2>
+            <table id="curr_vals_table" width="100%">
+                <tr>
+                    <td>
+                        <h3>Previous day value</h3>
+                    </td>
+                    <td>
+                        <h3>Current day value</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="currval_prevday"></p>
+                    </td>
+                    <td>
+                        <p id="currval_curday"></p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="error_div">
+            <h1>Something went wrong... :(</h1>
+            <h2>Try reloading this page</h2>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
